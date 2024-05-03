@@ -1,0 +1,84 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="data"
+        android:title="Data Set">
+		<Preference
+			android:key="jam_masuk"
+			android:title="Jam Masuk"
+			android:icon="@drawable/ic_clock" />
+		<EditTextPreference
+			android:key="ucapan"
+			android:title="Ucapan"
+			android:icon="@drawable/ic_greeting" />
+		<ListPreference
+			android:key="emot"
+			android:title="Emotikon"
+			android:icon="@drawable/ic_emot"
+			android:summary="%s"
+			android:entries="@array/emot"
+            android:entryValues="@array/emot"
+			android:defaultValue="😸" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+        android:key="general_settings"
+        android:title="App">
+        <ListPreference
+            android:key="theme"
+            android:title="Tema Aplikasi"
+			android:icon="@drawable/ic_theme"
+			android:summary="%s"
+            android:entries="@array/theme_options"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="light" />
+    </PreferenceCategory>
+
+	<PreferenceCategory
+        android:key="cadangkan_pulihkan"
+        android:title="Cadangan">
+        <Preference
+            android:key="backup"
+            android:title="Cadangkan"
+			android:summary="Buat cadangan data"
+			android:icon="@drawable/ic_backup" />
+		<Preference
+            android:key="restore"
+            android:title="Pulihkan"
+			android:summary="Pilih berkas untuk memulihkan data"
+			android:icon="@drawable/ic_restore" />
+    </PreferenceCategory>
+
+	<PreferenceCategory
+        android:key="contributors"
+        android:title="Kontributor">
+        <Preference
+            android:key="nabil"
+            android:title="Nabil Aziz Bima A."
+			android:summary="Universitas Muhammadiyah Surakarta"
+			android:icon="@drawable/ic_con" />
+		<Preference
+            android:key="sumijan"
+            android:title="Sumijan"
+			android:summary="Universitas Muhammadiyah Surakarta"
+			android:icon="@drawable/ic_con" />
+		<Preference
+            android:key="dewi"
+            android:title="Dewi Khoirunnisa"
+			android:summary="Universitas Muhammadiyah Surakarta"
+			android:icon="@drawable/ic_con" />
+		<Preference
+            android:key="fajar"
+            android:title="Fajar Nugroho"
+			android:summary="Universitas Muhammadiyah Surakarta"
+			android:icon="@drawable/ic_con" />
+    </PreferenceCategory>
+	
+	<PreferenceCategory
+        android:key="more"
+        android:title="Lainnya">
+        <Preference
+            android:key="exit"
+            android:title="Keluar"
+			android:icon="@drawable/ic_exit" />
+    </PreferenceCategory>
+</PreferenceScreen>

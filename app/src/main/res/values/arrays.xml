@@ -1,0 +1,23 @@
+<resources>
+    <string-array name="theme_options">
+        <item>Cerah</item>
+        <item>Gelap</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+    <string-array name="emot">
+        <item>😁</item>
+        <item>😸</item>
+		<item>😊</item>
+        <item>🥰</item>
+		<item>🥳</item>
+        <item>🤗</item>
+		<item>🫶</item>
+        <item>😬</item>
+		<item>🤩</item>
+        <item>😍</item>
+    </string-array>
+	
+</resources>
